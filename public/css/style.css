@@ -25,7 +25,12 @@ html{
 }
 
 .footer{
-   position: fixed;
-   bottom: -10px;
+   position: absolute;
+   bottom: -1px;
    width: 100%;
+}
+
+.nofooter{
+    position: relative;
+    width: 100%;
 }
