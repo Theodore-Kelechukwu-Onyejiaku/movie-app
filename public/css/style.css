@@ -24,11 +24,13 @@ html{
     transition-duration: 0.5s;
 }
 
-.footer{
-   width: 100%
-}
-
-.nofooter{
-    position: relative;
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
     width: 100%;
-}
+    background-color: red;
+    color: white;
+    text-align: center;
+ }
+ 
