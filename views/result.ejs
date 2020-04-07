@@ -15,7 +15,7 @@
             <div class="container">
                     <% if(data.results.length > 0){ %>
                         <% data["results"].forEach(movie=>{ %>
-                        <div class="row">
+                        <div class="row" style="border-bottom: 3px solid red">
                             <div class="col-12 col-lg-8">
                                 <img src="https://image.tmdb.org/t/p/w600_and_h900_bestv2/<%= movie.poster_path %>" alt="" class="img-fluid" style="max-width: 100%;" height="100px" alt="avenger picture">
                             </div>
@@ -28,7 +28,7 @@
                                 <p class="mt-5"> <strong>Total Votes:</strong> <%= movie["vote_count"] %></p>
                                 <p class="mt-5"> <strong>Averate Rating:</strong> <%= movie["vote_average"] %></p>
                             </div>
-                        </div><hr>  
+                        </div>
                         <% }) %>
                     <% }else{ %>
                     <h1 class="text-danger text-center">Sorry No Result Found</h1>
