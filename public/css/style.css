@@ -1,0 +1,31 @@
+ html{
+    height: 100%;
+}
+
+body{
+    height: 100%;
+    /*border:3px solid red;*/
+}
+html{
+    height: 100%;
+}
+
+.input {
+    border:none;
+    outline: none;
+    border-bottom: 3px solid rgb(18, 179, 207);
+}
+
+.input:focus{
+    border:none;
+    outline:none;
+    border-bottom: 3px solid hsl(0, 55%, 43%);
+    transition: ease-out;
+    transition-duration: 0.5s;
+}
+
+.footer{
+   position: fixed;
+   bottom: -10px;
+   width: 100%;
+}

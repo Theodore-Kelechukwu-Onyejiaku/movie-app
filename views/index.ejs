@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/css/style.css">
+
+    <title>Movie Application</title>
+</head>
+<body style="overflow: hidden;">
+    <div class="container justify-content-center mt-5">
+            <div class="heading">
+                <h3 class="text-danger text-center">Search For Any Movie</h3>
+            </div>
+            <div class="text-center mt-5">
+                <form action="/result" method="GET">
+                    <input class="input" type="text" name="name" id="" placeholder="Name of movie">
+                    <input type="submit" value="submit" class="btn btn-info">
+                </form>
+            </div>
+            <div class="text-center mt-5">
+                <blockquote>
+                    <h4 class="text-danger">Theodore <i class="fa fa-heart"></i> you </h4>
+                </blockquote>
+            </div>       
+    </div>
+    <div class="text-center footer">
+        <div class="card text-white bg-danger">
+            <div class="card-header">
+                About
+            </div>
+            <div class="card-body">
+                <div class="card-title">
+                    A Movie App
+                </div>
+                <p class="card-text">
+                    This is a simple app built using Nodejs, EJS Template Engine and the Movie DB API
+                </p>
+                <hr class="bg-white">
+                copyright @Theodore Kelechukwu Onyejiaku
+            </div>
+        </div>
+    </div>    
+</body>
+</html>
