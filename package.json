@@ -1,7 +1,7 @@
 {
-  "name": "simple-express-app",
+  "name": "Simple Movie application",
   "version": "1.0.0",
-  "description": "This is the use of conditional loop in EJS",
+  "description": "A Progressive Web App Movie Application",
   "main": "app.js",
   "scripts": {
     "dev": "nodemon app.js",
